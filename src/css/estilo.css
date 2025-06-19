@@ -20,6 +20,8 @@ html {
 }
 
 img {
+    /* Elementos com display: block começam uma nova linha, não deixa que outros 
+    elementos HTML sejam colocados ao seu lado, a menos que sejam especificados para isso */
     display: block;
     max-width: 100%;
 }
@@ -50,7 +52,7 @@ a:hover {
 
 .inicio {
     width: 100%;
-    min-height: 100dvh; 
+    min-height: 100dvh; /*Esta é uma unidade de medida relativa à altura da viewport dinâmica*/
     padding: 3rem;
     background-image: var(--gradient1), url(../assets/Fundo4.jpg);
     background-repeat: no-repeat;
@@ -82,6 +84,7 @@ span {
     gap: 2rem;
 }
 
+/* MENU HAMBURGUER */
 .hamburguer {
     cursor: pointer;
     position: relative;
@@ -107,8 +110,8 @@ span {
     align-items: center;
 }
 
+/*responsividade */
 @media(width <=1024px) {
-
     .menu-header{
         width: 100%;
         height: 100vh;
@@ -136,16 +139,24 @@ span {
     .active {
         left: 0;
     }
+
+    /* MENU HAMBURGUER */
     .hamburguer {
         display: block;
     }
+
+    /* 1ª LINHA */
     .hamburguer.active .barra:first-child {
-        transform: translateY(8px) rotate(360deg) rotate(45deg);
+        transform: translateY(13px) rotate(360deg) rotate(45deg);
     }
+
+    /* 2ª LINHA */
     .hamburguer.active .barra:nth-child(2) {
         opacity: 0;
     }
+   
+    /* 3ª LINHA */
     .hamburguer.active .barra:last-child {
-        transform: translateY(-8px) rotate(-360deg) rotate(-45deg);
+        transform: translateY(-13px) rotate(-360deg) rotate(-45deg);
     }
 }
