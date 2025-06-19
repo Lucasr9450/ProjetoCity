@@ -26,13 +26,6 @@ img {
     max-width: 100%;
 }
 
-/* LETRAS RGB */
-.nome{
-    background-image: linear-gradient(to right, red,orange,yellow,rgb(37, 164, 37), green, blue, purple, violet);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 nav ul {
     list-style: none;
 }
@@ -46,6 +39,7 @@ a {
     text-transform: uppercase;
 }
 
+/* HOVER é uma pseudo-classe que realiza um efeito ao passar o mouse */
 a:hover {
     color: var(--color-font1);
 }
@@ -73,10 +67,14 @@ header h1 {
     font-size: 4rem;
     position: relative;
     z-index: 2;
+    /* LETRAS RGB */
+    background-image: linear-gradient(to right, red,orange,yellow,rgb(37, 164, 37), green, blue, purple, violet);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 span {
-    color: red
+    color: red;
 }
 
 .menu-header {
