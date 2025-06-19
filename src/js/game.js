@@ -5,4 +5,4 @@ let p4 = prompt("Digite um lugar que gostaria de estar")
 
 let msg=document.getElementById('msg')
 
-msg.innerHTML = '<p>Olá ${p1}, o seu poder é ${p2} e você vai enfrentar o(a) ${p3} em/no ${p4}</p>'
+msg.innerHTML = `<p>Olá ${p1} o seu poder é ${p2} e você vai enfrentar o(a) ${p3} em/no ${p4}</p>`
