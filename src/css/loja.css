@@ -13,7 +13,7 @@
 
 
 body{
-    background: var(--color-light);
+    background:rgba(107, 106, 106, 0.678);
 }
 
 #container{
@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    background: green;
+    background: linear-gradient(to right, red,orange,yellow,rgb(37, 164, 37), green, blue, purple, violet);
     color: var(--color-light);
     padding: 30px;
     display:flex;
@@ -67,10 +67,11 @@ header nav a:hover{
     height:350px;
     margin:10px;
     padding:10px;
-    border: 1px solid #ccc;
+    border: 1px solid #969595;
     border-radius:20px;
-    background:var(--color-light);
-    box-shadow:5px 5px 5px #bcb9b9;
+    background:grey;
+    box-shadow:5px 5px 5px #222222;
+    color:#0a0a0a
 }
 
 .produto img{
@@ -87,9 +88,9 @@ button{
     padding: 15px 45px;
     border-radius: 20px;
     cursor: pointer;
-    color:#fff;
+    color:#ffffff;
 }
 
 button:hover{
-    background-image: linear-gradient(green,black);
+    background-image: linear-gradient(rgb(10, 141, 28),black);
 }
