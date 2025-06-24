@@ -91,11 +91,6 @@ button{
     color:#ffffff;
 }
 
-footer{
-    color: var(--color-dark);
-    text-align: center;
-}
-
 .direitos{
     text-align: end;
 }
