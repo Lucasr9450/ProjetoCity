@@ -91,6 +91,15 @@ button{
     color:#ffffff;
 }
 
+footer{
+    color: var(--color-dark);
+    text-align: center;
+}
+
+.direitos{
+    text-align: end;
+}
+
 button:hover{
     background-image: linear-gradient(rgb(10, 141, 28),black);
 }
