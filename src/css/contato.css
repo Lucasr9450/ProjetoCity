@@ -69,4 +69,8 @@ article{
         gap: 6rem;
         text-align: center;
 }
+
+a{
+        font-size: 1.4rem;
+}
 }
