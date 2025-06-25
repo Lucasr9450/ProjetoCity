@@ -14,14 +14,12 @@
 
 body{
     background: rgb(98, 99, 98);
-    color:#000000
-
+    color:#000000;
 }
 
 #container{
     display:flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 header{
@@ -56,6 +54,10 @@ h1{
      margin:20px;
 }
 article{
+    text-align: center;
+}
+
+.direitos{
     text-align: center;
 }
 
