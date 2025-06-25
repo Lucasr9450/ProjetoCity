@@ -98,3 +98,13 @@ button{
 button:hover{
     background-image: linear-gradient(rgb(10, 141, 28),black);
 }
+
+@media(width <=1024px){
+    header{
+        width: 100%;
+        height: 15vh;
+        left: -100%;
+        gap: 6rem;
+        text-align: center;
+}
+}

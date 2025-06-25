@@ -58,3 +58,13 @@ h1{
 article{
     text-align: center;
 }
+
+@media(width <=1024px){
+    header{
+        width: 100%;
+        height: 18vh;
+        left: -100%;
+        gap: 6rem;
+        text-align: center;
+}
+}
